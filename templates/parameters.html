@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+    <h1>predict</h1>
+
+    <form method="get" action="predict">
+        <input type="text" name="District" placeholder="District" /><br>
+        <input type="text" name="N" placeholder="N" /><br>
+        <input type="text" name="P" placeholder="P" /><br>
+        <input type="text" name="K" placeholder="K" /><br>
+        <input type="text" name="temperature" placeholder="temperature" /><br>
+        <input type="text" name="humidity" placeholder="humidity" /><br>
+        <input type="text" name="ph" placeholder="Ph" /><br>
+        <input type="text" name="rainfall" placeholder="rainfall" /><br>
+
+        <button>Submit</button>
+    </form>
+
+{% endblock %}
