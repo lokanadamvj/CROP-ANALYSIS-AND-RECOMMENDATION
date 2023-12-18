@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+        <h1>Login here</h1>
+        <form class="" action="{{url_for('login_success')}}" method="post">
+          <label for="">Email: </label>
+          <input type="email" name="email" value="" required>
+
+          <label for="">Password: </label>
+          <input type="password" name="password" value="" required>
+          <button type="submit" name="login">Login</button>
+        </form>
+        <br>
+        <small>Dont have account?</small>
+        <small>Register: <a href="{{url_for('register')}}">Here</a></small>
+    
+{% endblock %}
+
+        

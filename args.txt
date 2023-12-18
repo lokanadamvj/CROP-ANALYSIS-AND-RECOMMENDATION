@@ -1,4 +1,13 @@
-CROP ANALYSIS AND RECOMMENDATION..
-naveen
-avinash
-renuka
+CROP ANALYSIS AND RECOMMENDATION
+Ref1
+Ref2
+Ref3
+Naveen
+Avinash
+Renuka
+
+Institute of Technology and Management
+Project
+
+pic2
+pic3
