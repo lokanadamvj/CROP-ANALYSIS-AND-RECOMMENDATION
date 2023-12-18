@@ -85,6 +85,8 @@ def team():
 @app.route('/predict', methods=['GET'])
 def predict():        
     District=request.args.get("District")
+    Year=request.args.get("Year")
+    Season=request.args.get("Season")
     N=request.args.get("N")
     P=request.args.get("P")
     K=request.args.get("K")
